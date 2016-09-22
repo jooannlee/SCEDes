@@ -1,0 +1,10 @@
+Package: SCEDes
+Type: Package
+Title: Effect sizes for single case reversal designs
+Version: 0.1.0
+Author: Joo Ann Lee
+Maintainer: Joo Ann Lee <jooannlee@gmail.com>
+Description: This package calculates various effect sizes for single case reversal designs
+License: MIT
+LazyData: TRUE
+RoxygenNote: 5.0.1
