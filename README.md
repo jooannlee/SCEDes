@@ -40,7 +40,7 @@ MA1 = 0 # MA1 start value
 
 set.seed(135)
 
-#### start data generating model loop
+#### #start data generating model loop
 
 for(t in -1000:sum(n)){
 
@@ -58,7 +58,7 @@ if(t > 0) y[t] = yVal
 
 if(t > 0) x = dummy[t, ]}
 
-#### end data generating model loop
+#### #end data generating model loop
 
 dat <- data.frame(time = 1:sum(n), phase=phase, y=y)
 
